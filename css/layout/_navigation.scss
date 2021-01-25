@@ -1,0 +1,22 @@
+
+.main-nav {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    margin-top: 10px;
+}
+
+.nav-droite {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-droite a:hover  {
+    text-decoration: line-through;
+}

@@ -1,0 +1,26 @@
+
+.footer-links {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    margin-top: 10px;
+}
+
+.footer-nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    color: #5a5a58;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: italic;
+    text-align: right;
+}
