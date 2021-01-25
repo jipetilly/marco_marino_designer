@@ -1,23 +1,49 @@
 body {
-    // background-color: #212121;
-    background-color: #000000;
+    background-color: #212121;
     font-size: 12px;
     line-height: 20px;
     color: #ffffff;
     margin: 0 auto;
 }
 
+.overblack {
+    background-color: #000000;
+    z-index: 200;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translate(0);
+    transition: 0.5s all ease-in-out;
+}
+.overblackOut {
+    transform: translateX(100%);
+}
 
 .hero-index {
     margin: 0 auto;
-    width: 92%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
 
 }
-.center {
+.center-index {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.intro-txt {
+    width: 50%;
+}
 
 
+.explore a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding-left: 200px;
 }

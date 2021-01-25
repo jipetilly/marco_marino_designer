@@ -1,0 +1,78 @@
+
+
+.nav-projects {
+    display: flex;
+    height: 100%;
+}
+
+.nav-projects div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    transition: .3 all linear;
+
+    a {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+        font-style: normal;
+        z-index: 3;
+        position: absolute;
+        text-align: center;
+        transition: .3s all ease-in-out;
+        text-decoration: none;
+
+        span {
+            display: block;
+            font-size: 12px;
+            margin-top: 12px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.nav-projects div:hover::before {
+    opacity: 1;
+    animation: animing 5s alternate infinite;
+}
+
+.nav-projects div:hover::after {
+    opacity: 0.5;
+}
+
+.nav-projects div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s all ease-in-out;
+}
+
+
+
+.annabelle::before {
+    background: url(../img/annabelle.jpg) center / cover;
+    height:100%;
+}
+.decathlon::before {
+    background: url(../img/decathlon.png) center / cover;
+    height:100%;
+}
+
+.evento::before {
+    background: url(../img/eventoxtra.jpg) center / cover;
+    height:100%;
+}
+
+.elflako::before {
+    background: url(../img/flako.jpg) center / cover;
+    height:100%;
+}
