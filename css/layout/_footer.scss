@@ -1,5 +1,6 @@
 
 .footer-links {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -8,6 +9,8 @@
     width: 92%;
     margin-top: 10px;
     margin-bottom: 50px;
+    bottom: 0;
+    left: 0;
 }
 
 .footer-nav {
