@@ -1,0 +1,26 @@
+.swiper-container {
+    margin-top: 10px;
+    width: 70%;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    img {
+        width: 100%;
+    }
+}
+
+.swiper-slide {
+    background: lightgray;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #ffffff;
+    width: 75px;
+}
+
+.swiper-pagination {
+    color: darkgray;
+}
+.swiper-pagination-bullet-active {
+    background-color: #000;
+  }
