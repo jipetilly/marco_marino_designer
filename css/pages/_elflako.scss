@@ -1,6 +1,10 @@
-// .elflako-page {
-//   background-color: #ffffff;
-// }
+.elflako-page {
+  background-color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 auto;
+  height: 100vh;
+}
 
 .main-nav.dark a {
   color: #212121;
@@ -88,7 +92,7 @@
         background-color: #fafafa;
         border-radius: 10px;
         .elflako1 {
-          background: url(../img/Brand-Press_Black.png) center/contain;
+          background: url(../img/Brand-Press_Black.png) center/contain no-repeat;
         }
       }
       .thumb-right {
@@ -100,7 +104,7 @@
 
         border-radius: 10px;
         .elflako2 {
-          background: url(../img/Brand-Press-White.png) center/contain;
+          background: url(../img/Brand-Press-White.png) center/contain no-repeat;
         }
       }
     }
@@ -187,7 +191,7 @@
             width: 48%;
         }
         .menu-img {
-            background: url(../img/03.jpg) center/cover;
+            background: url(../img/03.jpg) center/cover no-repeat;
             background-repeat: no-repeat;
             padding-right: 15px;
             padding-left: 0px;
@@ -195,8 +199,7 @@
             height: 500px;
         }
         .card-img {
-            background: url(../img/04.jpg) center/cover;
-            background-repeat: no-repeat;
+            background: url(../img/04.jpg) center/cover no-repeat;
             padding-right: 15px;
             padding-left: 0px;
             border-radius: 10px;

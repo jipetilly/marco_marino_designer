@@ -1,14 +1,16 @@
 
 .main-nav {
     position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     height: 50px;
-    width: 92%;
-    margin-top: 15px;
-    margin-left: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 4%;
+    padding-left: 4%;
     z-index: 10;
 }
 
@@ -20,4 +22,32 @@
 
 .nav-droite a:hover  {
     text-decoration: line-through;
+}
+
+@media screen and (max-width: 990px) {
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .nav-index {
+            width: 100%;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .logo {
+            justify-content: center;
+            letter-spacing: 5px;
+        }
+        .nav-droite {
+            justify-content: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        .nav-droite a {
+        padding-top: 30px;
+        }
+    }
 }

@@ -78,4 +78,10 @@
 .footer-nav.dark a {
     color: #ffffff;
     text-decoration: none;
-  }
+}
+
+@media screen and (max-width: 990px) {
+    .footer-links {
+        visibility: hidden;
+    }
+    }
