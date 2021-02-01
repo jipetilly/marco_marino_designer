@@ -1,7 +1,7 @@
-const overblack = document.querySelector('.overblack')
-window.addEventListener('load', ()=> {
-    overblack.classList.add ('overblackOut')
-})
+// const overblack = document.querySelector('.overblack')
+// window.addEventListener('load', ()=> {
+//     overblack.classList.add ('overblackOut')
+// })
 
 var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
