@@ -239,3 +239,82 @@
   opacity:1;
   bottom:0;
 }
+
+@media screen and (max-width: 990px) {
+  .elflako-page .main-nav {
+      background-color: #ffffff;
+  }
+  .nav-droite {
+    padding-bottom: 10px;
+  }
+  .hero {
+    height: 500px;
+    width: 100vw;
+    position: relative;
+    top: 100px;
+    left: 0;
+    background-attachment: initial;
+    h1 {
+      font-size: 70px;
+    }
+  }
+  .arrow-down {
+    display: none;
+  }
+
+  .challenge .wrapper-challenge {
+    width: 90%;
+    padding-top: 100px;
+    .challenge-text {
+      width: 90%;
+    }
+    .thumbs {
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      .thumb-left, .thumb-right {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+    .brand-id {
+      padding-top: 40px;
+    }
+    .barcelona {
+      width: 90%;
+      p {
+        line-height: 60px;
+      }
+    }
+  }
+.minimalism {
+  width: 90%;
+  .typoimg {
+    width: 70%;
+    p {
+      line-height: 60px;
+    }
+  }
+}
+.gallery{
+  width: 90%;
+  .row-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    .menu-img, .card-img {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+}
+.gal-img {
+  width: 90%;
+}
+.footer-nav, .experience {
+  visibility: hidden;
+}
+}

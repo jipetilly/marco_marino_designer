@@ -3,7 +3,10 @@
 var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+    autoplay: {
+      delay: 5000,
+  },
+  effect: 'fade',
   
     // If we need pagination
     pagination: {
@@ -53,7 +56,7 @@ window.addEventListener('scroll', function(){
         console.log (hImg);
             if (leScroll > (leTopImg.y + (hImg / 5))) {
                 imgReveal[i].classList.add('revealed');
-            } else if (leScroll < (leTopImg.y + (hImg / 10))) {
+            } else if (leScroll < (leTopImg.y + (hImg / 5))) {
                 imgReveal[i].classList.remove('revealed');
             }
     }

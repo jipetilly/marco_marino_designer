@@ -11,6 +11,7 @@
 }
 .form-header h3 {
     font-size: 32px;
+    line-height: 40px;
     font-weight: 500;
     color: whitesmoke;
 }
@@ -83,4 +84,19 @@
 .closed {
     transition: 0.3s all ease-in-out;
     right: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .contact {
+        width: 100vw;
+        right: -100vw;
+    }
+    .closed {
+        right: 0;
+    }
+    .contact form {
+        .input-text {
+            width: 100%;
+        }
+}
 }
