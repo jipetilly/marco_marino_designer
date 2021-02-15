@@ -228,3 +228,14 @@
   position: static;
 }
 
+
+.revealable {
+  opacity: 0.1;;
+  position: relative;
+  bottom:-30px;
+  @include transition(.5s);
+}
+.revealed {
+  opacity:1;
+  bottom:0;
+}

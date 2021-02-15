@@ -5,20 +5,31 @@
     margin: 0 auto;
     height: 100vh;
 }
-
 .overblack {
-    background-color: #000000;
-    z-index: 200;
     position: absolute;
-    height: 100%;
-    // width: 100%;
-    transform: translate(0);
-    transition: 0.5s all ease-in-out;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: #212121;
+    animation: rideau 1s cubic-bezier(0.87, 0, 0.13, 1) 1 forwards;
 }
-.overblackOut {
-    transform: translateX(100%);
-    visibility: hidden;
-}
+
+
+// .overblack {
+//     background-color: #000000;
+//     z-index: 200;
+//     position: absolute;
+//     height: 100%;
+//     // width: 100%;
+//     transform: translate(0);
+//     transition: 0.5s all ease-in-out;
+// }
+// .overblackOut {
+//     transform: translateX(100%);
+//     visibility: hidden;
+// }
 
 // .hero-index {
 //     margin: 0 auto;
